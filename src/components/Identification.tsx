@@ -19,7 +19,10 @@ const situations = [
 
 export default function Identification() {
   return (
-    <div className="identification flex items-center justify-center md:px-48 px-4 py-14 ">
+    <div className="identification flex items-center justify-center md:px-48 px-4 py-14 relative ">
+      <div className="papel1 md:visible invisible" />
+      <div className="papel2 md:visible invisible" />
+      <div className="papel3 md:visible invisible" />
       <div className="bg-white rounded-[50px] md:py-[90px] py-11 md:px-[85px] px-4 flex md:flex-row flex-col-reverse md:max-w-[1280px] justify-center items-center identification-card relative overflow-hidden gap-3">
         <div className="absolute top-0 h-[6px] md:w-[85%] w-[60%] bg-[var(--primary)] rounded-full" />
         <div className="flex md:gap-6 gap-4 flex-col">
