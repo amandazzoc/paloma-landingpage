@@ -1,21 +1,7 @@
 'use client'
 import { Check } from "lucide-react";
 import Image from "next/image";
-
-const situations = [
-  {
-    id: 1,
-    text: "Vai prestar ENEM ou algum vestibular e sente que sua redação ainda não está no nível ideal?",
-  },
-  {
-    id: 2,
-    text: "Quer gabaritar as questões de literatura, incluindo as obras obrigatórias da Fuvest, Unicamp, UFPR e outros?",
-  },
-  {
-    id: 3,
-    text: "️Precisa dominar a gramática para passar em concursos públicos?"
-  },
-];
+import { situations } from "@/data/data";
 
 export default function Identification() {
   return (

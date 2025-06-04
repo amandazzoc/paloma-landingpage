@@ -93,3 +93,11 @@ body {
   width: 287.45px;
   height: 285.79px;
 }
+
+.classes{
+  background-image: url('/images/background/classes.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -150px
+}
