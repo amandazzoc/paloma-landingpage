@@ -31,3 +31,23 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+.header {
+  background-image: url('/images/background/header.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+@media (max-width: 768px) {
+  .header {
+    background-image: url('/images/background/header-mobile.svg');
+    height: 90vh;
+  }
+}
+
+.cta-button:hover {
+  filter: drop-shadow(0 0 13px rgba(1, 202, 1, 0.62));
+  transition: all 0.3s ease-in-out;
+}
