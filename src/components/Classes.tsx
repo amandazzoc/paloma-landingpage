@@ -6,9 +6,9 @@ import Image from "next/image";
 
 export default function Classes() {
   return (
-    <div className="classes flex flex-col justify-between items-center md:px-48 px-4 md:pt-48 pb-36 pt-46">
-      <div className="flex flex-col gap-9 items-center">
-        <div className="flex flex-col md:max-w-[1361px] items-center">
+    <div className="classes flex flex-col justify-between items-center md:px-48 px-4 md:pt-48 md:pb-36 pb-24 pt-46">
+      <div className=" flex flex-col gap-9 items-center">
+        <div className=" flex flex-col md:max-w-[1361px] items-center">
           <p className="md:text-4xl text-xl font-baloo text-[var(--primary)] font-extrabold text-center">
             Tudo que você vai dominar com a Profª Paloma
           </p>
@@ -20,7 +20,7 @@ export default function Classes() {
         <div className="flex md:flex-row flex-col md:gap-[90px] gap-8 items-center">
           {classes.map((item) => (
             <div
-              className={`flex flex-col md:gap-8 gap-4 md:py-[47px] py-[22px] px-[22px] border-2 rounded-4xl ${
+              className={`bg-white flex flex-col md:gap-8 gap-4 md:py-[47px] py-[22px] px-[22px] border-2 rounded-4xl ${
                 item.menor ? "max-h-[483px]" : ""
               } md:max-w-[413px] shadow-xl`}
               key={item.title}
