@@ -13,7 +13,10 @@ export default function FaqContent() {
   return (
     <div className="flex flex-col border border-[#D9D9D9] rounded-2xl">
       {faq.map((item) => (
-        <div key={item.id} className="border-b border-[#D9D9D9] px-9 ">
+        <div
+          key={item.id}
+          className={`px-9 ${item.id === faq[faq.length - 1].id ? "" : "border-b border-[#D9D9D9]"}`}
+        >
           <button
             onClick={() => toggleFaq(item.id)}
             className="w-full text-left flex justify-between items-center py-4 "
