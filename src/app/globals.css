@@ -155,5 +155,6 @@ body {
   align-items: center;
 }
 
-
-
+.swiper-pagination-bullet-active{
+  background: var(--background) !important;
+}

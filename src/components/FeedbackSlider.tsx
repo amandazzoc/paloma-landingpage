@@ -7,7 +7,7 @@ import Image from "next/image";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import { FreeMode } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 
 const slides = [
   "/images/carrossel/slide1.png",
@@ -23,10 +23,11 @@ export default function TestimonialsCarousel() {
   return (
     <Swiper
       freeMode={true}
-      pagination={{ clickable: true }}
-      modules={[FreeMode]}
+      modules={([Pagination])}
       className="w-full mx-auto"
       loop={true}
+      grabCursor={true}
+      pagination={true}
       breakpoints={{
         640: {
           slidesPerView: 1.3,
