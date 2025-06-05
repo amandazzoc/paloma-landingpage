@@ -4,12 +4,12 @@ export default function Feedback() {
   return (
     <>
       <div className="onda-top" />
-      <div className="bg-[var(--primary)] flex flex-col justify-between items-center md:py-48 py-9 md:gap-9 gap-4">
+      <div className="bg-[var(--primary)] flex flex-col justify-between items-center md:py-24 py-9 md:gap-9 gap-4">
         <div className="flex flex-col items-center text-center justify-center text-white max-w-[952px]">
-          <p className="font-baloo md:text-4xl text-xl">
+          <p className="font-baloo md:text-2xl text-xl">
             Ainda acha que não consegue? Eles pensavam o mesmo.
           </p>
-          <p className="md:text-xl text-[16px]">
+          <p className="md:text-md text-[16px]">
             Todos esses depoimentos são de pessoas que, assim como você, estavam
             perdidas com tanto conteúdo. Mas encontraram um plano, uma
             professora de verdade, e viram tudo mudar.

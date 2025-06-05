@@ -21,8 +21,8 @@ export default function FaqContent() {
             onClick={() => toggleFaq(item.id)}
             className="w-full text-left flex justify-between items-center py-4 "
           >
-            <p className="md:text-xl text-[16px]"> {item.question}</p>
-            <span className="text-3xl text-[var(--primary)]">
+            <p className="md:text-md text-[16px]"> {item.question}</p>
+            <span className="text-2xl text-[var(--primary)]">
               {openId === item.id ? <CaretUp /> : <CaretDown />}
             </span>
           </button>
@@ -31,7 +31,7 @@ export default function FaqContent() {
               openId === item.id ? "max-h-[500px] mt-2" : "max-h-0"
             }`}
           >
-            <p className=" text-[#818181] md:text-xl text-[16px] py-4 border-t border-[#D9D9D9]">
+            <p className=" text-[#818181] md:text-sm text-[16px] py-4 border-t border-[#D9D9D9]">
               {item.answer}
             </p>
           </div>

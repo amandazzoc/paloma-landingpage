@@ -52,9 +52,9 @@ export default function TestimonialsCarousel() {
             <Image
               src={src}
               alt={`Depoimento ${index + 1}`}
-              width={400}
-              height={427}
-              className="w-full h-[427px] object-contain "
+              width={300}
+              height={327}
+              className="w-full h-[327px] object-contain "
             />
           </div>
         </SwiperSlide>
