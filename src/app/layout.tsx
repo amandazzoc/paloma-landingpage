@@ -4,13 +4,15 @@ import "./globals.css";
 
 const baloo2 = Baloo_2({
   variable: "--font-baloo-2",
+  subsets: ["latin"], 
   weight: ["800"],
-})
+});
 
 const fredoka = Fredoka({
   variable: "--font-fredoka",
-  weight: ["400"]
-})
+  subsets: ["latin"], 
+  weight: ["400"],
+});
 
 export const metadata: Metadata = {
   title: "Professora Paloma",
